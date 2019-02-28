@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Store Site</title>
+  </head>
+  <body>
+    <div class="container bg-warning">
+      <div class="jumbotron background-blue">
+        <h1 class="display-4">This is my Store list:</h1>
+      </div>
+
+      <!-- Questions div containers -->
+      <form id="questions">
+        <!-- Question #1 - Climate -->
+        <div class="padding" id="q1">
+          <div>
+          First Item:<br>
+          <input type="text" id="firstitem">
+        </br>
+        </div>
+        <div>
+          Second Item:<br>
+          <input type="text" id="seconditem"></br>
+        </div>
+        <div>
+          Third Item:<br>
+          <input type="text" id="thirditem">
+        </br>
+      </div>
+        <div>
+          Fourth Item:<br>
+          <input type="text" id="fourthitem">
+        </br>
+      </div>
+    </div>
+      <button type="submit" class="btn btn-info shadow-buttons " id="findout">Convert List</button>
+
+      </form>
+
+      <!-- Final Destination div containers -->
+      <div class="hide" id="resultdiv">
+        <div id="result"  class="container card">
+          <h3 id="floatAnswer">The answer is:</h3>
+          <h3>
+            <ul id="answer">
+
+            </ul>
+          </h3>
+        </div>
+    </div>
+  </body>
+</html>
